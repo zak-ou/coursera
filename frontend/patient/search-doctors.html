@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Doctors - Patient Portal</title>
+    <link rel="stylesheet" href="dashboard-styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <div class="logo">
+                <h2>🏥 Smart Clinic</h2>
+                <p>Patient Portal</p>
+            </div>
+            <nav>
+                <a href="dashboard.html">🏠 Home</a>
+                <a href="search-doctors.html" class="active">🔍 Find Doctors</a>
+                <a href="appointments.html">📅 My Appointments</a>
+                <a href="prescriptions.html">💊 Prescriptions</a>
+                <a href="index.html">🚪 Logout</a>
+            </nav>
+        </aside>
+        
+        <main class="content">
+            <header>
+                <h1>Find a Doctor</h1>
+                <div class="user-info">
+                    <span id="patientName">Alice Williams</span>
+                </div>
+            </header>
+            
+            <div class="card">
+                <div class="search-section">
+                    <div class="search-bar">
+                        <input type="text" id="searchInput" placeholder="Search by doctor name or specialization..." value="John">
+                        <button class="btn-search">🔍 Search</button>
+                    </div>
+                    
+                    <div class="filters">
+                        <select id="specializationFilter">
+                            <option value="">All Specializations</option>
+                            <option value="Cardiology">Cardiology</option>
+                            <option value="Pediatrics">Pediatrics</option>
+                            <option value="Dermatology">Dermatology</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="doctors-grid">
+                    <div class="doctor-card">
+                        <div class="doctor-header">
+                            <div class="doctor-avatar">👨‍⚕️</div>
+                            <div class="doctor-info">
+                                <h3>Dr. John Smith</h3>
+                                <p class="specialization">Cardiology</p>
+                                <div class="rating">⭐⭐⭐⭐⭐ (4.8)</div>
+                            </div>
+                        </div>
+                        <div class="doctor-details">
+                            <p>📧 john.smith@clinic.com</p>
+                            <p>📞 +1234567891</p>
+                            <p>🕒 Available: Mon, Wed 9AM-5PM</p>
+                        </div>
+                        <button class="btn-primary">Book Appointment</button>
+                    </div>
+                    
+                    <div class="doctor-card">
+                        <div class="doctor-header">
+                            <div class="doctor-avatar">👨‍⚕️</div>
+                            <div class="doctor-info">
+                                <h3>Dr. Michael Johnson</h3>
+                                <p class="specialization">Cardiology</p>
+                                <div class="rating">⭐⭐⭐⭐☆ (4.5)</div>
+                            </div>
+                        </div>
+                        <div class="doctor-details">
+                            <p>📧 michael.j@clinic.com</p>
+                            <p>📞 +1234567892</p>
+                            <p>🕒 Available: Tue, Thu 8AM-4PM</p>
+                        </div>
+                        <button class="btn-primary">Book Appointment</button>
+                    </div>
+                    
+                    <div class="doctor-card">
+                        <div class="doctor-header">
+                            <div class="doctor-avatar">👩‍⚕️</div>
+                            <div class="doctor-info">
+                                <h3>Dr. Sarah Johnson</h3>
+                                <p class="specialization">Pediatrics</p>
+                                <div class="rating">⭐⭐⭐⭐⭐ (5.0)</div>
+                            </div>
+                        </div>
+                        <div class="doctor-details">
+                            <p>📧 sarah.johnson@clinic.com</p>
+                            <p>📞 +1234567893</p>
+                            <p>🕒 Available: Mon-Fri 9AM-3PM</p>
+                        </div>
+                        <button class="btn-primary">Book Appointment</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

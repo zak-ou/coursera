@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Dashboard - Smart Clinic</title>
+    <link rel="stylesheet" href="dashboard-styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <div class="logo">
+                <h2>🏥 Smart Clinic</h2>
+                <p>Doctor Portal</p>
+            </div>
+            <nav>
+                <a href="dashboard.html" class="active">📅 My Appointments</a>
+                <a href="patients.html">👥 Patients</a>
+                <a href="prescriptions.html">💊 Prescriptions</a>
+                <a href="schedule.html">🕒 My Schedule</a>
+                <a href="index.html">🚪 Logout</a>
+            </nav>
+        </aside>
+        
+        <main class="content">
+            <header>
+                <h1>My Appointments</h1>
+                <div class="user-info">
+                    <span id="doctorName">Dr. John Smith</span>
+                </div>
+            </header>
+            
+            <div class="card">
+                <div class="appointments-list">
+                    <div class="appointment-item">
+                        <div class="appointment-time">
+                            <div class="date">Jan 15, 2024</div>
+                            <div class="time">09:00 AM</div>
+                        </div>
+                        <div class="appointment-details">
+                            <h3>Alice Williams</h3>
+                            <p>📧 alice@email.com</p>
+                            <p>📞 +1234567894</p>
+                            <p><strong>Reason:</strong> Annual checkup</p>
+                        </div>
+                        <div class="status-badge status-scheduled">SCHEDULED</div>
+                    </div>
+                    
+                    <div class="appointment-item">
+                        <div class="appointment-time">
+                            <div class="date">Jan 15, 2024</div>
+                            <div class="time">10:00 AM</div>
+                        </div>
+                        <div class="appointment-details">
+                            <h3>Bob Davis</h3>
+                            <p>📧 bob@email.com</p>
+                            <p>📞 +1234567895</p>
+                            <p><strong>Reason:</strong> Follow-up visit</p>
+                        </div>
+                        <div class="status-badge status-scheduled">SCHEDULED</div>
+                    </div>
+                    
+                    <div class="appointment-item">
+                        <div class="appointment-time">
+                            <div class="date">Jan 15, 2024</div>
+                            <div class="time">11:30 AM</div>
+                        </div>
+                        <div class="appointment-details">
+                            <h3>Carol Miller</h3>
+                            <p>📧 carol@email.com</p>
+                            <p>📞 +1234567896</p>
+                            <p><strong>Reason:</strong> Consultation for chest pain</p>
+                        </div>
+                        <div class="status-badge status-scheduled">SCHEDULED</div>
+                    </div>
+                    
+                    <div class="appointment-item">
+                        <div class="appointment-time">
+                            <div class="date">Jan 15, 2024</div>
+                            <div class="time">02:00 PM</div>
+                        </div>
+                        <div class="appointment-details">
+                            <h3>David Wilson</h3>
+                            <p>📧 david@email.com</p>
+                            <p>📞 +1234567897</p>
+                            <p><strong>Reason:</strong> Blood pressure monitoring</p>
+                        </div>
+                        <div class="status-badge status-scheduled">SCHEDULED</div>
+                    </div>
+                    
+                    <div class="appointment-item">
+                        <div class="appointment-time">
+                            <div class="date">Jan 14, 2024</div>
+                            <div class="time">03:00 PM</div>
+                        </div>
+                        <div class="appointment-details">
+                            <h3>Emma Brown</h3>
+                            <p>📧 emma@email.com</p>
+                            <p>📞 +1234567898</p>
+                            <p><strong>Reason:</strong> Post-surgery follow-up</p>
+                        </div>
+                        <div class="status-badge status-completed">COMPLETED</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
